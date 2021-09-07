@@ -27,6 +27,6 @@ def mults(num):
 		if i:
 			out.append(f"{threetostr(i)} {j}".strip())
 	if a:
-		out.append(f"({mults(a)}) trillion" if a//1000 else f"{threetostr(a)} trillion")
+		out.append(f"{mults(a)} trillion")
 	return " ".join(out[::-1])
 	
