@@ -15,6 +15,7 @@ def threetostr(num):
 		out.remove("")
 	return " ".join(out)
 
+
 def mults(num):
 	a = num
 	out = []
