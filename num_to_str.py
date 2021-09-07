@@ -15,7 +15,6 @@ def threetostr(num):
 		out.remove("")
 	return " ".join(out)
 
-
 def mults(num):
 	a = num
 	out = []
@@ -30,4 +29,3 @@ def mults(num):
 	if a:
 		out.append(f"{mults(a)} trillion")
 	return " ".join(out[::-1])
-	
